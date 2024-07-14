@@ -18,4 +18,4 @@ The topology of the lab will look like this:
 
 You can deploy it all right here:  
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fquiveringbacon%2FAzurevwanwiths2s-autolab%2Fmain%2Flabberapp--vwanlab.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fquiveringbacon%2FAzurevwan-autolab%2Fmain%2Flabberapp--vwanlab.json)
