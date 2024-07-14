@@ -61,7 +61,7 @@
         {
             "type": "Microsoft.Logic/workflows",
             "apiVersion": "2017-07-01",
-            "name": "labber1",
+            "name": "lab-vwan-creator",
             "location": "[resourceGroup().location]",
             "identity": {
                 "type": "SystemAssigned"
@@ -857,7 +857,7 @@
         {
             "type": "Microsoft.Logic/workflows",
             "apiVersion": "2017-07-01",
-            "name": "labkiller",
+            "name": "lab-vwan-killer",
             "location": "[resourceGroup().location]",
             "identity": {
                 "type": "SystemAssigned"
