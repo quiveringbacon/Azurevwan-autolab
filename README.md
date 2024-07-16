@@ -10,7 +10,7 @@ You can run these powershell commands in the cloudshell to do that:
     New-AzRoleAssignment -ObjectId $id1 -RoleDefinitionName Contributor -Scope /subscriptions/$subid  
     New-AzRoleAssignment -ObjectId $id2 -RoleDefinitionName Contributor -Scope /subscriptions/$subid  
 
-This creates a vwan and a couple of spoke vnets with VM's connected to the vhub. You'll be prompted for the resource group name to deploy the logicapps in, a location for that resource group, your public ip and username and password to use for the VM's and a resource group for the lab resources to be in, this resource group will be created and deleted everyday. JIT access is setup for 8 hours allowing RDP/ssh access from your public ip.
+This creates a vwan and a couple of spoke vnets with VM's connected to the vhub. You'll be prompted for the resource group name to deploy the logicapps in, a location for that resource group, your public ip and username and password to use for the VM's and a resource group for the lab resources to be in, this resource group will be created and deleted everyday. JIT access is setup for 8 hours allowing RDP access from your public ip.
 
 The topology of the lab will look like this:
 ![wvanlab](https://github.com/user-attachments/assets/99d90b13-282a-4bc4-82f0-afec7f311822)
